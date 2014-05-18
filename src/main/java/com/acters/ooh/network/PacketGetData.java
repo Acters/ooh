@@ -1,17 +1,17 @@
-package com.ooh.network;
+package com.acters.ooh.network;
 
 import java.io.DataInputStream;
 import java.io.DataOutputStream;
 import java.io.IOException;
 
-import com.ooh.OOHData;
+import com.acters.ooh.OOHData;
 import net.minecraft.entity.Entity;
 import net.minecraft.entity.player.EntityPlayer;
 import net.minecraft.network.INetworkManager;
 import cpw.mods.fml.common.network.PacketDispatcher;
 import cpw.mods.fml.common.network.Player;
 
-import static com.ooh.OOH.*;
+import static com.acters.ooh.OOH.*;
 
 public class PacketGetData extends PacketOOH
 {

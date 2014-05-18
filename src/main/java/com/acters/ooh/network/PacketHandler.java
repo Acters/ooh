@@ -1,4 +1,4 @@
-package com.ooh.network;
+package com.acters.ooh.network;
 
 import net.minecraft.network.INetworkManager;
 import net.minecraft.network.packet.Packet250CustomPayload;

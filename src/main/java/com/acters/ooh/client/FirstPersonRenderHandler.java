@@ -1,14 +1,13 @@
-package com.ooh.client;
+package com.acters.ooh.client;
 
-import static com.ooh.OOH.isClient;
+import static com.acters.ooh.OOH.isClient;
 import static net.minecraftforge.client.IItemRenderer.ItemRenderType.FIRST_PERSON_MAP;
 
 import java.lang.reflect.Field;
 import java.lang.reflect.Method;
 
-import com.ooh.OOH;
-import com.ooh.OOHData;
-import cpw.mods.fml.common.registry.GameData;
+import com.acters.ooh.OOH;
+import com.acters.ooh.OOHData;
 import net.minecraft.client.Minecraft;
 import net.minecraft.client.entity.EntityClientPlayerMP;
 import net.minecraft.client.entity.EntityPlayerSP;
@@ -22,7 +21,6 @@ import net.minecraft.client.renderer.entity.RenderManager;
 import net.minecraft.client.renderer.entity.RenderPlayer;
 import net.minecraft.entity.player.EntityPlayer;
 import net.minecraft.item.EnumAction;
-import net.minecraft.item.Item;
 import net.minecraft.item.ItemMap;
 import net.minecraft.item.ItemStack;
 import net.minecraft.util.MathHelper;

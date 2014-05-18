@@ -1,6 +1,6 @@
-package com.ooh.client;
+package com.acters.ooh.client;
 
-import com.ooh.OOHData;
+import com.acters.ooh.OOHData;
 import cpw.mods.fml.common.eventhandler.SubscribeEvent;
 import net.minecraft.client.Minecraft;
 import net.minecraft.client.renderer.RenderHelper;

@@ -1,9 +1,9 @@
-package com.ooh.network;
+package com.acters.ooh.network;
 
 import java.io.ByteArrayInputStream;
 import java.io.DataInputStream;
 
-import com.ooh.OOH;
+import com.acters.ooh.OOH;
 import net.minecraft.network.packet.Packet;
 import net.minecraft.network.packet.Packet250CustomPayload;
 

@@ -1,6 +1,6 @@
-package com.ooh;
+package com.acters.ooh;
 
-import static com.ooh.OOH.*;
+import static com.acters.ooh.OOH.*;
 import net.minecraft.entity.Entity;
 import net.minecraft.entity.player.EntityPlayer;
 import net.minecraft.init.Items;

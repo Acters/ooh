@@ -1,4 +1,4 @@
-package com.ooh.client;
+package com.acters.ooh.client;
 
 import static net.minecraftforge.client.IItemRenderer.ItemRenderType.EQUIPPED;
 import static net.minecraftforge.client.IItemRenderer.ItemRendererHelper.BLOCK_3D;
@@ -6,10 +6,9 @@ import static net.minecraftforge.client.IItemRenderer.ItemRendererHelper.BLOCK_3
 import java.lang.reflect.Field;
 import java.lang.reflect.Method;
 
-import com.ooh.OOH;
-import com.ooh.OOHData;
+import com.acters.ooh.OOH;
+import com.acters.ooh.OOHData;
 import cpw.mods.fml.common.eventhandler.SubscribeEvent;
-import cpw.mods.fml.common.registry.GameData;
 import net.minecraft.block.Block;
 import net.minecraft.client.model.ModelBiped;
 import net.minecraft.client.model.ModelRenderer;
@@ -19,10 +18,8 @@ import net.minecraft.client.renderer.entity.RenderManager;
 import net.minecraft.client.renderer.entity.RenderPlayer;
 import net.minecraft.entity.EntityLivingBase;
 import net.minecraft.entity.player.EntityPlayer;
-import net.minecraft.init.Blocks;
 import net.minecraft.init.Items;
 import net.minecraft.item.EnumAction;
-import net.minecraft.item.Item;
 import net.minecraft.item.ItemStack;
 import net.minecraft.util.MathHelper;
 import net.minecraft.util.ResourceLocation;

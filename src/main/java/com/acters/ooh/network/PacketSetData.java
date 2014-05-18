@@ -1,11 +1,10 @@
-package com.ooh.network;
+package com.acters.ooh.network;
 
 import java.io.DataInputStream;
 import java.io.DataOutputStream;
 import java.io.IOException;
-import java.util.Iterator;
 
-import com.ooh.OOHData;
+import com.acters.ooh.OOHData;
 import net.minecraft.entity.Entity;
 import net.minecraft.entity.player.EntityPlayer;
 import net.minecraft.nbt.NBTTagCompound;

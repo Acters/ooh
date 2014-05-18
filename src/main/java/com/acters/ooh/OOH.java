@@ -1,13 +1,13 @@
-package com.ooh;
+package com.acters.ooh;
 
 import java.util.ArrayList;
 import java.util.List;
 
-import com.ooh.client.FirstPersonRenderHandler;
-import com.ooh.client.HotbarOverlayHandler;
-import com.ooh.client.ThirdPersonRenderHandler;
-import com.ooh.packethandler.PacketPipeline;
-import com.ooh.proxy.CommonProxy;
+import com.acters.ooh.client.FirstPersonRenderHandler;
+import com.acters.ooh.client.HotbarOverlayHandler;
+import com.acters.ooh.client.ThirdPersonRenderHandler;
+import com.acters.ooh.packethandler.PacketPipeline;
+import com.acters.ooh.proxy.CommonProxy;
 import net.minecraft.client.Minecraft;
 import net.minecraft.client.settings.GameSettings;
 import net.minecraft.client.settings.KeyBinding;
@@ -34,7 +34,7 @@ public class OOH
 	// - doesn't swing @ times
 
 	@Instance (OOH.modid)
-	@SidedProxy (clientSide = "com.ooh.proxy.ClientProxy", serverSide = "com.ooh.proxy.CommonProxy")
+	@SidedProxy (clientSide = "com.acters.ooh.proxy.ClientProxy", serverSide = "com.acters.ooh.proxy.CommonProxy")
 
 	public static OOH	       instance;
 	private static CommonProxy	proxy;

@@ -1,4 +1,4 @@
-package com.ooh.proxy;
+package com.acters.ooh.proxy;
 
 public class CommonProxy
 {

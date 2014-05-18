@@ -1,6 +1,6 @@
-package com.ooh.handler;
+package com.acters.ooh.handler;
 
-import com.ooh.OOHData;
+import com.acters.ooh.OOHData;
 import net.minecraft.client.Minecraft;
 import net.minecraft.client.gui.GuiChat;
 import net.minecraft.client.settings.KeyBinding;
