@@ -5,12 +5,12 @@ import com.acters.ooh.OOHData;
 import com.acters.ooh.network.EnumPacketTypes;
 import com.acters.ooh.network.PacketSetData;
 import net.minecraft.entity.player.EntityPlayer;
-import cpw.mods.fml.common.IPlayerTracker;
-import cpw.mods.fml.common.network.PacketDispatcher;
+//import cpw.mods.fml.common.IPlayerTracker;
+//import cpw.mods.fml.common.network.PacketDispatcher;
 
-class PlayerTracker implements IPlayerTracker
+class PlayerTracker /*implements IPlayerTracker*/
 {
-
+/*
 	@Override
 	public void onPlayerLogin (EntityPlayer player)
 	{
@@ -66,5 +66,5 @@ class PlayerTracker implements IPlayerTracker
 	@Override
 	public void onPlayerRespawn (EntityPlayer player)
 	{
-	}
+	}*/
 }

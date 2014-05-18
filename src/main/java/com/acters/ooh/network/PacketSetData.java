@@ -8,12 +8,13 @@ import com.acters.ooh.OOHData;
 import net.minecraft.entity.Entity;
 import net.minecraft.entity.player.EntityPlayer;
 import net.minecraft.nbt.NBTTagCompound;
-import net.minecraft.network.INetworkManager;
-import cpw.mods.fml.common.network.PacketDispatcher;
-import cpw.mods.fml.common.network.Player;
+//import net.minecraft.network.INetworkManager;
+//import cpw.mods.fml.common.network.PacketDispatcher;
+//import cpw.mods.fml.common.network.Player;
 
-public class PacketSetData extends PacketOOH
+public class PacketSetData /*extends PacketOOH*/
 {
+/*
 
 	private int	           entityID;
 	private NBTTagCompound	tagCompound;
@@ -101,5 +102,6 @@ public class PacketSetData extends PacketOOH
 			PacketDispatcher.sendPacketToAllPlayers(EnumPacketTypes.populatePacket(new PacketSetData(entityID, tagCompound, false)));
 		}
 	}
+*/
 
 }

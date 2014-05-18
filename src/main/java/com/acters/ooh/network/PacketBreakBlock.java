@@ -7,12 +7,12 @@ import java.io.IOException;
 import net.minecraft.block.Block;
 import net.minecraft.entity.player.EntityPlayer;
 import net.minecraft.entity.player.EntityPlayerMP;
-import net.minecraft.network.INetworkManager;
-import cpw.mods.fml.common.network.Player;
+//import net.minecraft.network.INetworkManager;
+//import cpw.mods.fml.common.network.Player;
 
-public class PacketBreakBlock extends PacketOOH
+public class PacketBreakBlock /*extends PacketOOH*/
 {
-
+/*
 	private boolean	sendOutData;
 	private int	    playerID;
 	private int	    posX;
@@ -83,4 +83,5 @@ public class PacketBreakBlock extends PacketOOH
 			}
 		}
 	}
+*/
 }

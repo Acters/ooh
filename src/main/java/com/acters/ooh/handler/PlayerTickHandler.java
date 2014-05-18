@@ -20,17 +20,18 @@ import net.minecraft.entity.player.EntityPlayer;
 import net.minecraft.item.ItemStack;
 import net.minecraft.item.ItemSword;
 import net.minecraft.item.ItemTool;
-import net.minecraft.util.EnumMovingObjectType;
+//import net.minecraft.util.EnumMovingObjectType;
 import net.minecraft.util.MovingObjectPosition;
 import net.minecraftforge.common.ForgeHooks;
 import net.minecraftforge.event.ForgeEventFactory;
 import net.minecraftforge.event.entity.player.PlayerInteractEvent.Action;
-import cpw.mods.fml.common.ITickHandler;
-import cpw.mods.fml.common.TickType;
-import cpw.mods.fml.common.network.PacketDispatcher;
+//import cpw.mods.fml.common.ITickHandler;
+//import cpw.mods.fml.common.TickType;
+//import cpw.mods.fml.common.network.PacketDispatcher;
 
-class PlayerTickHandler implements ITickHandler
+class PlayerTickHandler /*implements ITickHandler*/
 {
+/*
 	private KeyBinding	leftClick;
 	private KeyBinding	rightClick;
 	private KeyBinding	key;
@@ -570,5 +571,6 @@ class PlayerTickHandler implements ITickHandler
 	{
 		return "OOHTickTock";
 	}
+*/
 
 }

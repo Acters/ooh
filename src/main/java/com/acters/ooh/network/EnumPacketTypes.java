@@ -4,12 +4,12 @@ import java.io.ByteArrayInputStream;
 import java.io.DataInputStream;
 
 import com.acters.ooh.OOH;
-import net.minecraft.network.packet.Packet;
-import net.minecraft.network.packet.Packet250CustomPayload;
+//import net.minecraft.network.packet.Packet;
+//import net.minecraft.network.packet.Packet250CustomPayload;
 
 public enum EnumPacketTypes
 {
-	OOH_DATA_SET(PacketSetData.class),
+/*	OOH_DATA_SET(PacketSetData.class),
 	OOH_DATA_GET(PacketGetData.class),
 	BREAK_BLOCK(PacketBreakBlock.class),
 	ATTACK_ENTITY(PacketAttackEntity.class);
@@ -63,5 +63,5 @@ public enum EnumPacketTypes
 		packet250.isChunkDataPacket = false;
 		
 		return packet250;
-	}
+	}*/
 }

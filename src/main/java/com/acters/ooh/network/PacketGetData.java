@@ -7,14 +7,15 @@ import java.io.IOException;
 import com.acters.ooh.OOHData;
 import net.minecraft.entity.Entity;
 import net.minecraft.entity.player.EntityPlayer;
-import net.minecraft.network.INetworkManager;
-import cpw.mods.fml.common.network.PacketDispatcher;
-import cpw.mods.fml.common.network.Player;
+//import net.minecraft.network.INetworkManager;
+//import cpw.mods.fml.common.network.PacketDispatcher;
+//import cpw.mods.fml.common.network.Player;
 
 import static com.acters.ooh.OOH.*;
 
-public class PacketGetData extends PacketOOH
+public class PacketGetData/* extends PacketOOH*/
 {
+/*
 
 	private int	entityInQuestion;
 	private int	playerID;
@@ -81,5 +82,6 @@ public class PacketGetData extends PacketOOH
 			PacketDispatcher.sendPacketToPlayer(EnumPacketTypes.populatePacket(new PacketSetData(entity, OOHData.getOOHData(entity))), (Player) thePlayer);
 		}
 	}
+*/
 
 }

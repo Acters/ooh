@@ -25,20 +25,17 @@ import cpw.mods.fml.common.SidedProxy;
 import cpw.mods.fml.common.event.FMLInitializationEvent;
 import cpw.mods.fml.common.event.FMLPostInitializationEvent;
 
-@Mod (modid = OOH.modid, useMetadata = true, name = "OntheOtherHand", version = "0.0d.pre")
+@Mod (modid = OOH.modid, useMetadata = true, name = "OntheOtherHand", version = "0.1pre")
 public class OOH
 {
-	// TO DO
-	// - weird click after disengaging dual wield
-	// - right arm still renders at times
-	// - doesn't swing @ times
+	// TODO weird click after disengaging dual wield, right arm still renders at times, doesn't swing @ times
 
 	@Instance (OOH.modid)
 	@SidedProxy (clientSide = "com.acters.ooh.proxy.ClientProxy", serverSide = "com.acters.ooh.proxy.CommonProxy")
 
 	public static OOH	       instance;
-	private static CommonProxy	proxy;
-	public static final String modid = "OOH";
+//	private static CommonProxy	proxy;
+	public static final String modid = "ooh";
 	public static final boolean	   isObfuscated	 = false;
 	public static final  List <Item> illegalItems	= new ArrayList<Item>();
 	private static final PacketPipeline packetPipeline = new PacketPipeline();
@@ -57,7 +54,7 @@ public class OOH
 	@EventHandler
 	public void load(FMLInitializationEvent event)
 	{
-		proxy.registerKeyBinds();
+//		proxy.registerKeyBinds();
 
 		if (isClient())
 		{

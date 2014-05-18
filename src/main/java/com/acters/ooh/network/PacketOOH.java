@@ -9,11 +9,12 @@ import java.io.IOException;
 
 import net.minecraft.nbt.CompressedStreamTools;
 import net.minecraft.nbt.NBTTagCompound;
-import net.minecraft.network.INetworkManager;
-import cpw.mods.fml.common.network.Player;
+//import net.minecraft.network.INetworkManager;
+//import cpw.mods.fml.common.network.Player;
 
 public class PacketOOH
 {
+/*
 	private final EnumPacketTypes	type;
 
 
@@ -116,4 +117,5 @@ public class PacketOOH
 			return CompressedStreamTools.decompress(abyte);
 		}
 	}
+*/
 }

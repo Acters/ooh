@@ -15,7 +15,7 @@ import net.minecraft.entity.ai.attributes.AttributeModifier;
 import net.minecraft.entity.boss.EntityDragonPart;
 import net.minecraft.entity.player.EntityPlayer;
 import net.minecraft.item.ItemStack;
-import net.minecraft.network.INetworkManager;
+//import net.minecraft.network.INetworkManager;
 import net.minecraft.potion.Potion;
 import net.minecraft.stats.AchievementList;
 import net.minecraft.stats.StatList;
@@ -23,11 +23,12 @@ import net.minecraft.util.DamageSource;
 import net.minecraft.util.MathHelper;
 import net.minecraftforge.common.MinecraftForge;
 import net.minecraftforge.event.entity.player.AttackEntityEvent;
-import cpw.mods.fml.common.network.PacketDispatcher;
-import cpw.mods.fml.common.network.Player;
+//import cpw.mods.fml.common.network.PacketDispatcher;
+//import cpw.mods.fml.common.network.Player;
 
-public class PacketAttackEntity extends PacketOOH
+public class PacketAttackEntity /*extends PacketOOH*/
 {
+/*
 
 	private int	    playerID;
 	private int	    targetID;
@@ -222,5 +223,6 @@ public class PacketAttackEntity extends PacketOOH
 			PacketDispatcher.sendPacketToAllPlayers(EnumPacketTypes.populatePacket(new PacketAttackEntity(player, target, slot, false)));
 		}
 	}
+*/
 
 }
